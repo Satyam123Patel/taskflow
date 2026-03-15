@@ -28,7 +28,7 @@
   },
   "scripts": {
   "start": "craco start",
-  "build": "SET CI=false && craco build",
+  "build": "react-scripts build",
   "test": "craco test"
 },
   "eslintConfig": {
