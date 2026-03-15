@@ -1,11 +1,13 @@
+# Backend
 backend/venv/
-backend/**pycache**/
+backend/__pycache__/
 backend/*.pyc
-backend/.env
+backend/node_modules/
 
+# Frontend
 frontend/node_modules/
-frontend/.env
+frontend/build/
 
-**pycache**/
-*.pyc
-.env
+# Environment files
+backend/.env
+frontend/.env
